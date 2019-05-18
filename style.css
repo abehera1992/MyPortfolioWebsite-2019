@@ -122,6 +122,10 @@ top: 30%;
     position: sticky;
     z-index: 2;
 }
+
+.nav-link:active{
+    color:#fff!important;
+}
 .navbar-toggler{
     outline: none!important;
 
