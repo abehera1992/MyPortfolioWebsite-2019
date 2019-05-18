@@ -231,20 +231,20 @@ top: 30%;
     font-size: 28px;
 }
 
-.contact .btn{
+.contact a{
     padding: 5px 15px;
     margin-bottom: 10px;
-    border-radius: 30px;
+    border-radius: 30px!important;
     background-color: #F05F40!important;
     border: 1px solid #F05F40;
     cursor: pointer;
 }
 
-.contact .btn:focus{
+.contact a:focus{
     box-shadow: none!important;
 
 }
-.contact .btn:hover{
+.contact a:hover{
     border: 1px solid #9ec3e5!important;
     background-color: #9ec3e5!important;
     color:#000!important;
