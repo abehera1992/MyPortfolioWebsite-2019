@@ -1,4 +1,15 @@
 
+// <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140456843-1');
+
+
+
     var scroll = new SmoothScroll('a[href*="#"]');
 
     $('#homeTab').on('click', function (e) {
