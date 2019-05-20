@@ -220,7 +220,8 @@ top: 30%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color:#F05F40;
+    color:#F05F40!important;
+    text-decoration: none!important;
 
 }
 
