@@ -191,10 +191,11 @@ top: 30%;
     column-rule-color: #F05F40;
     text-align: left;
     font-size: 16px;
+    color:#fff;
 }
 
 .timeline li h4 span{
-    color: #ccc;
+    color: #1D2934;
     font-size: 15px;
     font-weight: bold;
 }
@@ -322,7 +323,7 @@ top: 30%;
 .portfolio{
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-rows: repeat(6,2fr);
     grid-template-columns: repeat(5,1fr);
     grid-gap: 5px;
 
