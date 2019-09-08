@@ -429,13 +429,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+
     #portfolio-mosaic{
         display: none!important;
     
@@ -448,13 +442,7 @@ and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+
     #portfolio-mosaic{
         display: none!important;
     
@@ -469,13 +457,7 @@ and (min-device-width: 834px)
 and (max-device-width: 834px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+
     #portfolio-mosaic{
         display: none!important;
     
@@ -490,13 +472,38 @@ and (min-device-width: 1112px)
 and (max-device-width: 1112px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+
+    #portfolio-mosaic{
+        display: none!important;
+    
     }
+}
+
+/*iPad Pro 11"*/
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 1536px)
+and (max-device-width: 1668px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    #portfolio-mosaic{
+        display: none!important;
+    
+    }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen
+and (min-device-width: 2388px)
+and (max-device-width: 2388px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 2) {
+
     #portfolio-mosaic{
         display: none!important;
     
@@ -511,13 +518,7 @@ and (min-device-width: 1024px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+
     #portfolio-mosaic{
         display: none!important;
     
@@ -532,13 +533,6 @@ and (min-device-width: 1366px)
 and (max-device-width: 1366px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
-    #header{
-        height: 100vh;
-        background: url(img/header-bg.png);
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
     #portfolio-mosaic{
         display: none!important;
     
