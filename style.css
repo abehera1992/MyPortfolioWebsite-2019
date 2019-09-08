@@ -417,3 +417,46 @@ top: 30%;
 .int-img-six{
     background-image: url(img/Interesr-png/traveller.png);
 }
+
+
+
+/* Media queries */
+
+
+/* IPAD PRO - 1024 X 1366*/
+/* Portrait and Landscape */
+@media screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #portfolio-mosaic{
+        display: none!important;
+    
+    }
+    
+}
+
+/* Portrait */
+@media screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #portfolio-mosaic{
+        display: none!important;
+     
+     }
+}
+
+/* Landscape */
+@media screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+    #portfolio-mosaic{
+        display: none!important;
+     
+     }
+
+}
