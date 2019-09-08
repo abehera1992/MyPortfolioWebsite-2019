@@ -434,6 +434,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        font-size: 15px;
+    
+    }
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .timeline li {
+        margin: 20px 4px 20px;
+    }
 }
 
 /* Landscape */
@@ -447,12 +461,25 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .timeline li {
+        margin: 20px 4px 20px;
+    }
 }
+
 /*iPad Pro 10.5"*/
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+/* @media only screen
 and (min-device-width: 834px)
 and (max-device-width: 834px)
 and (orientation: portrait)
@@ -462,12 +489,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
-}
+} */
 
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+/* @media only screen
 and (min-device-width: 1112px)
 and (max-device-width: 1112px)
 and (orientation: landscape)
@@ -477,7 +504,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
-}
+} */
 
 /*iPad Pro 11"*/
 /* Portrait */
@@ -492,6 +519,22 @@ and (-webkit-min-device-pixel-ratio: 2) {
     #portfolio-mosaic{
         display: none!important;
     
+    }
+
+    
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        content: "";
+    }
+
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .timeline li {
+        margin: 20px 4px 20px;
     }
 }
 
@@ -508,12 +551,31 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
+
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        content: "";
+    }
+
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .timeline li {
+        margin: 20px 4px 20px;
+    }
 }
+
+
+
+
 /*ipad PRo 12.9"*/
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+/* @media only screen
 and (min-device-width: 1024px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
@@ -523,12 +585,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
-}
+} */
 
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+/* @media only screen
 and (min-device-width: 1366px)
 and (max-device-width: 1366px)
 and (orientation: landscape)
@@ -537,4 +599,4 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
-}
+} */
