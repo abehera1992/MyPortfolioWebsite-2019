@@ -323,7 +323,7 @@ top: 30%;
 .portfolio{
     display: grid;
     height: 100%;
-    grid-template-rows: repeat(6,2fr);
+    grid-template-rows: repeat(5,2fr);
     grid-template-columns: repeat(5,1fr);
     grid-gap: 5px;
 
@@ -520,8 +520,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     }
-
-    
     .timeline p{
         text-align: left;
         padding: 5px;
