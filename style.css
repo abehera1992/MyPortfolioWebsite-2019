@@ -424,7 +424,7 @@ top: 30%;
 
 /*iPad Pro 9.7"*/
 /* Portrait */
-@media only screen
+@media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
@@ -451,7 +451,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 
 /* Landscape */
-@media only screen
+@media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
@@ -510,7 +510,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Portrait */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+@media screen
 and (min-device-width: 1536px)
 and (max-device-width: 1668px)
 and (orientation: portrait)
@@ -539,7 +539,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Landscape */
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-@media only screen
+@media screen
 and (min-device-width: 2388px)
 and (max-device-width: 2388px)
 and (orientation: landscape)
