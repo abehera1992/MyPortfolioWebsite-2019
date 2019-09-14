@@ -511,8 +511,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media screen
-and (min-device-width: 1536px)
-and (max-device-width: 1668px)
+and (min-device-width: 1668px)
+and (max-device-width: 2388px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -540,7 +540,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Declare the same value for min- and max-width to avoid colliding with desktops */
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media screen
-and (min-device-width: 2388px)
+and (min-device-width: 1668px)
 and (max-device-width: 2388px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
