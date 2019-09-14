@@ -424,7 +424,7 @@ top: 30%;
 
 /*iPad Pro 9.7"*/
 /* Portrait */
-@media screen
+/* @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: portrait)
@@ -448,10 +448,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline li {
         margin: 20px 4px 20px;
     }
-}
+} */
 
 /* Landscape */
-@media screen
+/* @media screen
 and (min-device-width: 768px)
 and (max-device-width: 1024px)
 and (orientation: landscape)
@@ -473,7 +473,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline li {
         margin: 20px 4px 20px;
     }
-}
+} */
 
 /*iPad Pro 10.5"*/
 /* Portrait */
