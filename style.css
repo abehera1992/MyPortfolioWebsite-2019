@@ -151,7 +151,7 @@ top: 30%;
 
 /*---------------Resume-----------*/
 #resume{
-    padding: 50px 0 30px 0;
+    padding: 100px 0 30px 0;
     background: #f9f9f9;
 }
 
@@ -301,7 +301,20 @@ top: 30%;
     width: 80px;
     transition: 1s;
 }
+/*---------------Parallax-quote-----------------------*/
 
+#parallax-quote{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    background: rgb(247,170,16);
+    background: linear-gradient(322deg, rgba(240,95,64,0.8), rgba(255,255,255,0.2)), url("img/parallax_2.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
 
 /*---------------Portfolio Mosaic-----------------------*/
 
@@ -373,13 +386,15 @@ top: 30%;
 .int-img-common:hover{
     background-blend-mode: multiply;
     background-position: center;
-    background-color: #ffe0cc;
+    background-color: #F05F40;
+    opacity: 1;
 
 }
 
 .int-img-common:hover .int-text{
     opacity: 1;
-    color: #F05F40;
+    color: #fff;
+    border-bottom: 4px solid #fff;
     transition: all ease-in 300ms;
 }
 
@@ -391,13 +406,11 @@ top: 30%;
     opacity: 0.5;
 }
 
+
 .int-img-one{
     background-image: url(img/Interesr-png/music.png);
 
 }
-
-
-
 
 .int-img-two{
     background-image: url(img/Interesr-png/techie-junk.png);
