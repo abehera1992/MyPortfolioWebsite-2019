@@ -313,7 +313,6 @@ top: 30%;
     background-attachment: fixed;
     background-size: cover;
 
-
 }
 
 /*---------------Portfolio Mosaic-----------------------*/
@@ -431,6 +430,45 @@ top: 30%;
     background-image: url(img/Interesr-png/traveller.png);
 }
 
+/*---------------Portfolio Tab-only tiles-----------------------*/
+
+.green{
+background-color: #4CAF50!important;
+height: 180px;
+}
+.indigo{
+background-color: #00BCD4!important;
+height: 190px;
+}
+.red{
+background-color: #F05F40!important;
+height: 270px;
+}
+.blue{
+background-color: #2196F3!important;
+height: 150px;
+}
+.pink{
+background-color:#E91E63!important;
+height: 150px;
+}
+.purple{
+background-color: purple!important;
+height: 240px;
+}
+
+
+.cs-border-left{
+    border-left: 3px solid #fff!important;
+}
+
+.custom-margin-10{
+    margin-top: 10px!important;
+}
+
+.blockquote{
+    margin-top:15px!important;
+}
 
 
 /* Media queries */
@@ -547,6 +585,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
     .timeline li {
         margin: 20px 4px 20px;
     }
+
+    
+#parallax-quote{
+    position: relative;
+    margin-top: 100px;
+    width: 100%;
+    height: 350px;
+    background: rgb(247,170,16);
+    background: linear-gradient(322deg, rgba(240,95,64,0.8), rgba(255,255,255,0.2)), url("img/parallax_2.png") no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
 }
 
 /* Landscape */
