@@ -486,12 +486,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     } */
 
-    #portfolio-mosaic{
-        height:80vh;
-        padding: 3%;
-        flex: 1 1 80%;
-    
-    }
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -531,12 +525,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     } */
     
-    #portfolio-mosaic{
-        height:80vh;
-        padding: 3%;
-        flex: 1 1 80%;
-    
-    }
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -597,12 +585,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
     
     } */
     
-    #portfolio-mosaic{
-        height:80vh;
-        padding: 3%;
-        flex: 1 1 80%;
-    
-    }
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -618,18 +600,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
         margin: 20px 4px 20px;
     }
 
-    
-#parallax-quote{
-    position: relative;
-    margin-top: 100px;
-    width: 100%;
-    height: 350px;
-    background: rgb(247,170,16);
-    background: linear-gradient(322deg, rgba(240,95,64,0.8), rgba(255,255,255,0.2)), url("img/parallax_2.png") no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
 
-}
 }
 
 /* Landscape */
@@ -645,13 +616,6 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: none!important;
     
     } */
-    
-    #portfolio-mosaic{
-        height:80vh;
-        padding: 3%;
-        flex: 1 1 80%;
-    
-    }
 
     .timeline p{
         text-align: left;
