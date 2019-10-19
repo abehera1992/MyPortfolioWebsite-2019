@@ -485,6 +485,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     } */
+
+    #portfolio-mosaic{
+        height:80vh;
+        padding: 3%;
+        flex: 1 1 80%;
+    
+    }
     .timeline p{
         text-align: left;
         padding: 5px;
