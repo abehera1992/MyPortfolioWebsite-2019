@@ -567,10 +567,10 @@ and (max-device-width: 2388px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 1) {
 
-    #portfolio-mosaic{
+    /* #portfolio-mosaic{
         display: none!important;
     
-    }
+    } */
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -609,10 +609,10 @@ and (max-device-width: 2388px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
 
-    #portfolio-mosaic{
+    /* #portfolio-mosaic{
         display: none!important;
     
-    }
+    } */
 
     .timeline p{
         text-align: left;
