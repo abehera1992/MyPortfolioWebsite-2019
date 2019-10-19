@@ -481,10 +481,10 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
-    #portfolio-mosaic{
+    /* #portfolio-mosaic{
         display: none!important;
     
-    }
+    } */
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -499,6 +499,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline li {
         margin: 20px 4px 20px;
     }
+    #parallax-quote{
+        position: relative;
+        margin-top: 100px;
+        width: 100%;
+        height: 350px;
+        background: rgb(247,170,16);
+        background: linear-gradient(322deg, rgba(240,95,64,0.8), rgba(255,255,255,0.2)), url("img/parallax_2.png") no-repeat center;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    }
 }
 
 /* Landscape */
@@ -508,10 +519,10 @@ and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
 
-    #portfolio-mosaic{
+    /* #portfolio-mosaic{
         display: none!important;
     
-    }
+    } */
     .timeline p{
         text-align: left;
         padding: 5px;
