@@ -432,6 +432,9 @@ top: 30%;
 
 /*---------------Portfolio Tab-only tiles-----------------------*/
 
+.portfolio-tab-tiles{
+    display: none;
+}
 .green{
 /* background-color: #4CAF50!important; */
 background-image: url(img/Interesr-png/music.png);
