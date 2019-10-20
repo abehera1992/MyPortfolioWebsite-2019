@@ -379,7 +379,7 @@ top: 30%;
     background-position: top left;
     transition: all ease-in-out 700ms;
     background-size: cover;
-    background-color:grey;
+    background-color:grey!important;
     background-blend-mode: multiply;
 }
 .int-img-common:hover{
@@ -433,33 +433,47 @@ top: 30%;
 /*---------------Portfolio Tab-only tiles-----------------------*/
 
 .green{
-background-color: #4CAF50!important;
+/* background-color: #4CAF50!important; */
+background-image: url(img/Interesr-png/music.png);
 height: 180px;
 }
 .indigo{
-background-color: #00BCD4!important;
+/* background-color: #00BCD4!important; */
+background-image: url(img/Interesr-png/techie-junk.png);
 height: 190px;
 }
 .red{
-background-color: #F05F40!important;
+/* background-color: #F05F40!important; */
+background-image: url(img/Interesr-png/developer.png);
 height: 270px;
 }
 .blue{
-background-color: #2196F3!important;
+/* background-color: #2196F3!important; */
+background-image: url(img/Interesr-png/foodie.png);
 height: 150px;
 }
 .pink{
-background-color:#E91E63!important;
+/* background-color:#E91E63!important; */
+background-image: url(img/Interesr-png/gamer.png);
+
 height: 150px;
 }
 .purple{
-background-color: purple!important;
+/* background-color: purple!important; */
+background-image: url(img/Interesr-png/traveller.png);
 height: 240px;
 }
 
 
 .cs-border-left{
     border-left: 3px solid #fff!important;
+    opacity:0.5;
+}
+
+.int-img-common:hover .cs-border-left {
+    opacity: 1;
+    border-left: 3px solid #F05F40!important;
+    transition: all ease-in 300ms;
 }
 
 .custom-margin-10{
@@ -470,6 +484,15 @@ height: 240px;
     margin-top:15px!important;
 }
 
+.blockquote span{
+    color:#fff;
+    opacity: 0.5;
+}
+
+.int-img-common:hover .blockquote span{
+    color:#fff;
+    opacity: 1;
+}
 
 /* Media queries */
 
@@ -481,10 +504,14 @@ and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
-    /* #portfolio-mosaic{
+    #portfolio-mosaic{
         display: none!important;
     
-    } */
+    } 
+
+    .portfolio-tab-tiles{
+        display: inline;
+    }
 
     #parallax-quote{
         display: none;
@@ -503,17 +530,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .timeline li {
         margin: 20px 4px 20px;
     }
-    #parallax-quote{
-        position: relative;
-        margin-top: 100px;
-        width: 100%;
-        height: 350px;
-        background: rgb(247,170,16);
-        background: linear-gradient(322deg, rgba(240,95,64,0.8), rgba(255,255,255,0.2)), url("img/parallax_2.png") no-repeat center;
-        background-attachment: fixed;
-        background-size: cover;
-    
-    }
+
 }
 
 /* Landscape */
@@ -527,6 +544,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     } 
+    .portfolio-tab-tiles{
+        display: inline;
+    }
     #parallax-quote{
         display: none;
     }
@@ -590,6 +610,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: none!important;
     
     } 
+    .portfolio-tab-tiles{
+        display: inline;
+    }
     #parallax-quote{
         display: none;
     }
@@ -626,6 +649,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
     } 
     #parallax-quote{
         display: none;
+    }
+    .portfolio-tab-tiles{
+        display: inline;
     }
     .timeline p{
         text-align: left;
