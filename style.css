@@ -673,34 +673,66 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 
-
-
-/*ipad PRo 12.9"*/
-/* Portrait */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-/* @media only screen
-and (min-device-width: 1024px)
-and (max-device-width: 1024px)
-and (orientation: portrait)
-and (-webkit-min-device-pixel-ratio: 2) {
+/* iPhone 11 Max [portrait + landscape] */
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (orientation: portrait)
+    and (-webkit-device-pixel-ratio: 3) { 
 
     #portfolio-mosaic{
         display: none!important;
     
+    } 
+    .portfolio-tab-tiles{
+        display: inline;
     }
-} */
+    #parallax-quote{
+        display: none;
+    }
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        content: "";
+    }
 
-/* Landscape */
-/* Declare the same value for min- and max-width to avoid colliding with desktops */
-/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
-/* @media only screen
-and (min-device-width: 1366px)
-and (max-device-width: 1366px)
-and (orientation: landscape)
-and (-webkit-min-device-pixel-ratio: 2) {
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .timeline li {
+        margin: 20px 4px 20px;
+    }
+}
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (orientation: landscape)
+    and (-webkit-device-pixel-ratio: 3) {
     #portfolio-mosaic{
         display: none!important;
     
+    } 
+    #parallax-quote{
+        display: none;
     }
-} */
+    .portfolio-tab-tiles{
+        display: inline;
+    }
+    .timeline p{
+        text-align: left;
+        padding: 5px;
+        content: "";
+    }
+
+    .timeline li h4 span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .timeline li {
+        margin: 20px 4px 20px;
+    }
+}
