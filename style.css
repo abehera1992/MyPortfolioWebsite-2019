@@ -486,6 +486,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     
     } */
 
+    #parallax-quote{
+        display: none;
+    }
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -524,6 +527,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         display: none!important;
     
     } */
+    #parallax-quote{
+        display: none;
+    }
     
     .timeline p{
         text-align: left;
@@ -584,7 +590,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: none!important;
     
     } */
-    
+    #parallax-quote{
+        display: none;
+    }
     .timeline p{
         text-align: left;
         padding: 5px;
@@ -616,7 +624,9 @@ and (-webkit-min-device-pixel-ratio: 1) {
         display: none!important;
     
     } */
-
+    #parallax-quote{
+        display: none;
+    }
     .timeline p{
         text-align: left;
         padding: 5px;
