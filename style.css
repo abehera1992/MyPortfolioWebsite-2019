@@ -454,18 +454,17 @@ height: 270px;
 .blue{
 /* background-color: #2196F3!important; */
 background-image: url(img/Interesr-png/foodie.png);
-height: 150px;
+height: 190px;
 }
 .pink{
 /* background-color:#E91E63!important; */
 background-image: url(img/Interesr-png/gamer.png);
-
-height: 150px;
+height: 180px;
 }
 .purple{
 /* background-color: purple!important; */
 background-image: url(img/Interesr-png/traveller.png);
-height: 240px;
+height: 190px;
 }
 
 
@@ -641,8 +640,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
 /* iPhone 11 Max [portrait + landscape] */
 @media only screen 
-    and (min-device-width: 350px) 
-    and (min-device-height: 850px) 
+    and (min-device-width: 300px) 
+    and (max-device-width: 450px) 
     and (orientation: portrait)
     and (-webkit-min-device-pixel-ratio: 1) { 
 
@@ -673,8 +672,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 }
 
 @media only screen 
-    and (min-device-width: 350px) 
-    and (min-device-height: 850px) 
+and (min-device-width: 300px) 
+and (max-device-width: 450px) 
     and (orientation: landscape)
     and (-webkit-min-device-pixel-ratio: 1) {
     #portfolio-mosaic{
