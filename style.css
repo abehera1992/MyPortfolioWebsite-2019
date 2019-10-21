@@ -504,7 +504,7 @@ height: 240px;
 /* Portrait */
 @media screen
 and (min-device-width: 768px)
-and (max-device-height: 1024px)
+and (max-device-width: 1024px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -540,7 +540,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /* Landscape */
 @media screen
 and (min-device-width: 768px)
-and (max-device-height: 1024px)
+and (max-device-width: 1024px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 2) {
 
@@ -571,7 +571,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 @media only screen
 and (min-device-width: 1668px)
-and (max-device-height: 2388px)
+and (max-device-width: 2388px)
 and (orientation: portrait)
 and (-webkit-min-device-pixel-ratio: 1) {
 
@@ -608,7 +608,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 /* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
 @media only screen
 and (min-device-width: 1668px)
-and (max-device-height: 2388px)
+and (max-device-width: 2388px)
 and (orientation: landscape)
 and (-webkit-min-device-pixel-ratio: 1) {
 
